@@ -1,0 +1,9 @@
+package com.automata.medilogue.repos
+
+enum class State {
+    START_CONVERSATION,
+    CONSULTATION,
+    CONSULTATION_CONCLUSION,
+    MEDICINE_VERIFICATION,
+    MEDICINE_RECOMMENDATION
+}
