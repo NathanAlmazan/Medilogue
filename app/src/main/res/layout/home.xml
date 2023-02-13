@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:elevation="2dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="40dp"
+        android:layout_marginLeft="30dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="415dp"
         android:textColor="#FFFFFF"

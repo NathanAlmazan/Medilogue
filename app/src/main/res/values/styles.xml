@@ -13,4 +13,17 @@
         <item name="android:fontFamily">@font/Analogue76BoldOblique</item>
         <item name="android:textSize">24sp</item>
     </style>
+
+    <style name="Light">
+        <item name="android:fontFamily">@font/Analogue45Light</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Bubble">
+        <item name="cardCornerRadius">20dp</item>
+    </style>
+
+    <style name="sendButtonStyle" parent="@style/Widget.MaterialComponents.Button.Icon">
+        <item name="backgroundTint">#588DDD</item>
+    </style>
 </resources>
