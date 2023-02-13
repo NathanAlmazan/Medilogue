@@ -3,4 +3,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="sample_text">A very long sample text. A very long sample text. A very long sample text. A very long sample text.</string>
+    <string name="tag">Your one call away\nmedication guide.</string>
+    <string name="welcome_text">Welcome to\nMedilogue!</string>
+    <string name="begin">Start Medication</string>
 </resources>
