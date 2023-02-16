@@ -6,4 +6,6 @@
     <string name="tag">Your one call away\nmedication guide.</string>
     <string name="welcome_text">Welcome to\nMedilogue!</string>
     <string name="begin">Start Consultation</string>
+    <string name="send">Send</string>
+    <string name="start">start</string>
 </resources>

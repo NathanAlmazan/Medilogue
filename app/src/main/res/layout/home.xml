@@ -26,8 +26,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="160dp"
         android:gravity="center"
@@ -39,8 +39,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="233dp"
         android:gravity="center"
@@ -53,8 +53,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elevation="2dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="415dp"
         android:textColor="#FFFFFF"
@@ -67,14 +67,13 @@
         android:id="@+id/startbtt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="396dp"
         android:src="@drawable/start"
         android:background="@android:color/transparent"
-        android:contentDescription="start"
-        android:onClick="startButton"/>
+        android:contentDescription="@string/start" />
 
 </RelativeLayout>
 

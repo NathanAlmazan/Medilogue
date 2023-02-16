@@ -7,7 +7,7 @@
 
     <LinearLayout
         android:id="@+id/cv_chat_bot__response_wrapper"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="start"
@@ -16,15 +16,23 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="120dp">
 
+        <ImageView
+            android:id="@+id/chat_bot_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/bot_icon"/>
+
         <com.google.android.material.card.MaterialCardView
             style="@style/Bubble"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp">
 
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/tv_chat_bot_message"
-                android:layout_width="249dp"
-                android:layout_height="54dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_margin="12dp"
                 android:text="@string/sample_text"
                 android:textAppearance="@style/Light"
@@ -36,7 +44,7 @@
 
     <LinearLayout
         android:id="@+id/cv_user_response_wrapper"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="end"
