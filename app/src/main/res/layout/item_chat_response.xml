@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/cv_chat_bot__response_wrapper"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="start"
@@ -15,17 +16,27 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="120dp">
 
-        <com.google.android.material.card.MaterialCardView
-            style="?attr/materialCardViewFilledStyle"
+        <ImageView
+            android:id="@+id/chat_bot_icon"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/bot_icon"/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp">
 
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/tv_chat_bot_message"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
-                android:text="@string/sample_text" />
+                android:text="@string/sample_text"
+                android:textAppearance="@style/Light"
+                android:textSize="15sp"/>
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -33,7 +44,7 @@
 
     <LinearLayout
         android:id="@+id/cv_user_response_wrapper"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="end"
@@ -43,7 +54,8 @@
         android:layout_marginEnd="16dp">
 
         <com.google.android.material.card.MaterialCardView
-            style="?attr/materialCardViewFilledStyle"
+            style="@style/Bubble"
+            app:cardBackgroundColor="#8993E1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -52,7 +64,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
-                android:text="@string/sample_text" />
+                android:text="@string/sample_text"
+                android:textAppearance="@style/Light"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
 
         </com.google.android.material.card.MaterialCardView>
 
