@@ -60,7 +60,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:background="color/transparent"
+                android:background="@android:color/transparent"
                 android:contentDescription="@string/send">
             </ImageButton>
 

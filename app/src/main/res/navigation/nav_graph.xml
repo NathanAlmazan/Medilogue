@@ -3,13 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/ChatFragment">
+    app:startDestination="@id/HistoryFrag">
 
     <fragment
         android:id="@+id/ChatFragment"
         android:name="com.automata.medilogue.ChatFragment"
         android:label="Consultation"
         tools:layout="@layout/fragment_chat">
+    </fragment>
+
+    <fragment
+        android:id="@+id/HistoryFrag"
+        android:name="com.automata.medilogue.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/history_fragment">
     </fragment>
 
 </navigation>
