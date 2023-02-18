@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardID"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#81C784"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp"
+    app:contentPadding="4dp"
+    tools:ignore="InvalidId">
+    
+    
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:padding="16dp" >
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_height="236dp"
+            android:layout_width="39dp"
+            app:layout_ConstraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_height="236dp"
+            android:layout_width="39dp"
+            app:layout_ConstraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tvName"/>
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_height="236dp"
+            android:layout_width="39dp"
+            app:layout_ConstraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tvResult"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.cardview.widget.CardView>
